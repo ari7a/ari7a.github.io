@@ -1,10 +1,9 @@
 ﻿@font-face {
-    font-family: 'Cheri Liney';
-    src: url(cheri-liney.ttf);
+	font-family: 'Cheri Liney';
+	src: url(cheri-liney.ttf);
 }
 a {
-    background: linear-gradient(to right, #f00, #f80 , #ff0, #8f0, #0f0, #0f8, #0ff, #08f, #00f, #80f, #f0f, #f08, #f00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.2em;
+	background: linear-gradient(to right, #f00, #f80 , #ff0, #8f0, #0f0, #0f8, #0ff, #08f, #00f, #80f, #f0f, #f08, #f00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
