@@ -2,3 +2,9 @@
     font-family: 'Cheri Liney';
     src: url(cheri-liney.ttf);
 }
+a {
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.2em;
+}
