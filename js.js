@@ -11,4 +11,5 @@ function agregar_estilo()
 function js()
 {
 	agregar_estilo()
+	document.body.style.display="block"
 }
