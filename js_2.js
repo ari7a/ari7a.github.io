@@ -1,5 +1,4 @@
-﻿function agregar_estilo()
-{
+﻿function agregar_estilo(){
 	var l = document.createElement("link")
 	l.href = "estilo.css" + "?" + r(10000000000)
 	l.rel = "stylesheet"
@@ -8,3 +7,8 @@
 function mostrar(){
 	document.body.style.display="block"
 }
+function principal(){
+	agregar_estilo()
+	setTimeout(mostrar,100)
+}
+principal()
