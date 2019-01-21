@@ -3,7 +3,7 @@
 	src: url(cheri-liney.ttf);
 }
 a {
-	background: linear-gradient(to right, #f00, #f80 , #ff0, #8f0, #0f0, #0f8, #0ff, #08f, #00f, #80f, #f0f, #f08, #f00);	
+	background: linear-gradient(to right, #f00 , #ff0, #0f0, #0ff, #00f, #f0f, #f00);	
 	font-weight:bold;
 	font-family: 'Cheri Liney';
 	-webkit-background-clip: text;

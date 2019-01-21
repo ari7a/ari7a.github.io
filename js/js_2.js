@@ -8,6 +8,7 @@ function mostrar(){
 	document.body.style.display="block"
 }
 function principal(){
+	document.querySelector("a").innerHTML = document.querySelector("meta").content
 	agregar_estilo()
 	setTimeout(mostrar,100)
 }
