@@ -7,3 +7,7 @@ function agregar_javascript()
 	l.src = "js_2" + "?" + r(10000000000)
 	document.head.appendChild(l)
 }
+function js()
+{
+	agregar_javascript()
+}

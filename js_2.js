@@ -8,8 +8,3 @@
 function mostrar(){
 	document.body.style.display="block"
 }
-function js()
-{
-	agregar_estilo()
-	setTimeout(mostrar,100)
-}
