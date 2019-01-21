@@ -8,7 +8,8 @@ function mostrar(){
 	document.body.style.display="block"
 }
 function principal(){
-	document.querySelector("a").innerHTML = document.querySelector("meta").content
+	document.querySelector("a").innerHTML = document.querySelector("meta[property='og:description']").content
+	document.title = document.querySelector("meta[property='og:site_name']").content
 	agregar_estilo()
 	setTimeout(mostrar,100)
 }
