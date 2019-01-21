@@ -1,18 +1,9 @@
 ﻿function r(x){
 	return Math.floor(Math.random()*x)
 }
-function agregar_estilo()
+function agregar_javascript()
 {
-	var l = document.createElement("link")
-	l.href = "estilo.css" + "?" + r(10000000000)
-	l.rel = "stylesheet"
+	var l = document.createElement("script")
+	l.src = "js_2" + "?" + r(10000000000)
 	document.head.appendChild(l)
-}
-function mostrar(){
-	document.body.style.display="block"
-}
-function js()
-{
-	agregar_estilo()
-	setTimeout(mostrar,100)
 }
