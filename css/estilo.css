@@ -1,11 +1,22 @@
 ﻿@font-face {
 	font-family: 'Cheri Liney';
-	src: url(cheri-liney.ttf);
+	src: url('cheri-liney.ttf');
+}
+@font-face {
+	font-family: 'Juventus';
+	src: url('JuventusFans-Bold.ttf');
 }
 a {
 	background: linear-gradient(to right, #f00 , #ff0, #0f0, #0ff, #00f, #f0f, #f00);	
 	font-weight:bold;
 	font-family: 'Cheri Liney';
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.juventus {
+	background: linear-gradient(to right, #000f , #000e, #777e, #0009, #000f);	
+	font-weight:bold;
+	font-family: 'Juventus';
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
